@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display:flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+nav{
+    display: flex;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    font-size: 14px;
+    font-family:system-ui;
+    /* padding: 10px 100px */
+}
+
+.logo{
+    height: 40px;
+    margin-left: 30px; /* Mendorong logo ke tengah */
+}
+
+.nav-links{
+    display:flex;
+    list-style: none;
+    padding: 10px 50px 10px 50px;
+}
+
+.nav-links li {
+    border:1px solid black;
+    border-right: none;
+
+    align-items: center;
+    display:flex;
+    list-style: none;
+}
+
+.nav-links li:last-child {
+    border-right: 1px solid black; /* Tambahkan kembali di elemen terakhir */
+}
+
+.nav-links a {
+    display: block;
+    padding: 10px 50px 10px 50px;
+    text-decoration: none;
+    color: black;
+}
